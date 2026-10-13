@@ -7,7 +7,7 @@
     { id: 'brand', title: 'Dubai British School' },
     { id: 'school', title: 'The school' },
     { id: 'piers', title: 'Piers' },
-    { id: 'furjan', title: 'Al Furjan Mall' },
+    { id: 'furjan', title: 'Furjan Pavilion Screens' },
     { id: 'schedule', title: 'The schedule' },
     { id: 'close', title: 'Conclusion' },
   ];
@@ -62,7 +62,7 @@
                 <div class="pitch-facts">
                   <div><small>The schools</small><strong>Emirates Hills and Jumeirah Park</strong></div>
                   <div><small>Admissions</small><strong>Secondary and Sixth Form</strong></div>
-                  <div><small>This plan</small><strong>Piers and Al Furjan</strong></div>
+                  <div><small>This plan</small><strong>7 piers and Furjan screens</strong></div>
                 </div>
               </div>
               <div class="pitch-hero-frame">
@@ -104,24 +104,24 @@
 
       case 'piers':
         return `<article class="slide piers-slide" data-slide="3">
-          <p class="story-kicker">03 — Piers</p>
+          <p class="story-kicker">03 — Lampposts, Piers</p>
           <h1 class="why-title">Stretched to <span>the door.</span></h1>
-          <p class="why-lead">The roadside half of the combined package. These faces reach Al Furjan and the communities beside it: DIP, The Gardens and Discovery Gardens. That is the catchment around Arbor, and the drive toward JVT and Arcadia.</p>
+          <p class="why-lead">The roadside half of the combined package. One circuit of lampposts: 7 piers, 14 faces. They reach Al Furjan and the communities beside it: DIP, The Gardens and Discovery Gardens. That is the catchment around Arbor, and the drive toward JVT and Arcadia.</p>
           <figure class="piers-photo">
-            <img src="assets/piers-street.jpg" alt="Lightbox faces along the Piers stretch" />
+            <img src="assets/piers-street.jpg" alt="Lamppost faces along the Piers circuit" />
           </figure>
           <div class="piers-boxes">
             <article>
-              <strong>16</strong>
-              <span>lightboxes, Jebel Ali end. Back-to-back, 32 faces.</span>
+              <strong>7</strong>
+              <span>piers on one circuit.</span>
             </article>
             <article>
               <strong>14</strong>
-              <span>lightboxes, the middle stretch. Back-to-back, 28 faces.</span>
+              <span>faces on those piers.</span>
             </article>
             <article>
-              <strong>26</strong>
-              <span>lightboxes, DIP end, by Sheikh Mohammed Bin Zayed Road. 52 faces.</span>
+              <strong>1</strong>
+              <span>circuit of lampposts.</span>
             </article>
             <article>
               <strong>20,000</strong>
@@ -129,7 +129,7 @@
             </article>
           </div>
           <p class="piers-notes">
-            <span>56 lightboxes, 112 faces, Sheikh Zayed Road to Jebel Ali</span>
+            <span>One circuit, 7 piers, 14 faces</span>
             <span>RTA, 14 September 2019</span>
             <span>Road capacity, not a count of cars past these faces</span>
           </p>
@@ -137,37 +137,20 @@
 
       case 'furjan':
         return `<article class="slide furjan-slide" data-slide="4">
-          <p class="story-kicker">04 — Al Furjan Mall</p>
+          <p class="story-kicker">04 — Furjan Pavilion Screens</p>
           <h1 class="why-title">Screens where <span>they shop.</span></h1>
-          <p class="why-lead">The residential half, for the same two schools. Families in Al Furjan already pass these screens. The numbers under each site are the ones printed on the supplied sheets.</p>
+          <p class="why-lead">The residential half of the same package. Furjan Pavilion Screens, for families in Al Furjan who already pass them.</p>
           <div class="furjan-grid">
-            <article>
-              <figure class="furjan-photo">
-                <img src="assets/furjan-south-screen.png" alt="Furjan South Pavilion screen" />
-              </figure>
-              <h2>Furjan South Pavilion</h2>
-              <div class="furjan-stats">
-                <p><strong>2</strong><span>screens</span></p>
-                <p><strong>5,000</strong><span>daily footfall</span></p>
-              </div>
-              <p class="furjan-mix">Asian 2,400 (48%). Other Arab 1,000 (20%). Western 750 (15%). Emirati 500 (10%). Other 350 (7%).</p>
-            </article>
-            <article>
-              <figure class="furjan-photo">
-                <img src="assets/furjan-west-screen.png" alt="Furjan West Pavilion screen" />
-              </figure>
-              <h2>Furjan West Pavilion</h2>
-              <div class="furjan-stats">
-                <p><strong>2</strong><span>screens</span></p>
-                <p><strong>8,300</strong><span>daily footfall</span></p>
-              </div>
-              <p class="furjan-mix">Asian 4,000 (48%). Other Arab 1,667 (20%). Western 1,250 (15%). Emirati 833 (10%). Other 583 (7%).</p>
-            </article>
+            <figure class="furjan-photo">
+              <img src="assets/furjan-south-screen.png" alt="Furjan Pavilion screen" />
+            </figure>
+            <figure class="furjan-photo">
+              <img src="assets/furjan-west-screen.png" alt="Furjan Pavilion screen" />
+            </figure>
           </div>
           <p class="piers-notes">
-            <span>Supplied Pavilion sheets</span>
-            <span>A footfall is not a count of parents</span>
-            <span>A share is not a census</span>
+            <span>Furjan Pavilion Screens</span>
+            <span>In the same package as the Piers circuit</span>
           </p>
         </article>`;
 
@@ -175,7 +158,7 @@
         return `<article class="slide schedule-slide" data-slide="5">
           <p class="story-kicker">05 — The schedule</p>
           <h1 class="why-title">One package <span>for all.</span></h1>
-          <p class="why-lead">Piers, Furjan South Pavilion and Furjan West Pavilion are one package of AED 130,000. 5% VAT and the uploading fee are added.</p>
+          <p class="why-lead">Lampposts on Piers and Furjan Pavilion Screens are one package of AED 130,000. 5% VAT and the uploading fee are added.</p>
           <div class="schedule-wrap">
             <table>
               <thead>
@@ -186,15 +169,11 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>Piers</td>
-                  <td>Included</td>
+                  <td>Lampposts (Piers)</td>
+                  <td>One circuit, 7 piers, 14 faces</td>
                 </tr>
                 <tr>
-                  <td>Furjan South Pavilion</td>
-                  <td>Included</td>
-                </tr>
-                <tr>
-                  <td>Furjan West Pavilion</td>
+                  <td>Furjan Pavilion Screens</td>
                   <td>Included</td>
                 </tr>
                 <tr>
@@ -238,7 +217,7 @@
               <p class="pitch-kicker"><span class="pitch-kicker-line"></span> Mira Media · Dubai British School</p>
               <h1 class="pitch-title">${esc(c.contact.line1)}<br><span>${esc(c.contact.line2)}</span></h1>
               <p class="pitch-lead">${esc(c.contact.message)}</p>
-              <p class="pitch-lead">One package for both schools. Piers is the roadside stretch through Al Furjan. Furjan South and Furjan West are the screens families already pass.</p>
+              <p class="pitch-lead">One package for both schools. Lampposts on Piers are one circuit of 7 piers and 14 faces. Furjan Pavilion Screens are the screens families already pass.</p>
               <div class="pitch-facts">
                 <div><small>Email</small><strong><a href="mailto:${esc(c.contact.email)}">${esc(c.contact.email)}</a></strong></div>
                 <div><small>Phone</small><strong><a href="tel:+97144368624">${esc(c.contact.phones[0])}</a></strong></div>

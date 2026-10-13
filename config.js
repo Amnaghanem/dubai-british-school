@@ -21,13 +21,13 @@ window.DECK = {
   cover: {
     line1: "Seen where",
     line2: "families go.",
-    hook: "Piers and the Al Furjan screens, for families around Arcadia and Arbor.",
+    hook: "One circuit of lampposts on Piers, 7 piers and 14 faces, and Furjan Pavilion Screens, for families around Arcadia and Arbor.",
   },
 
   contact: {
     line1: "Along the",
     line2: "journey.",
-    message: "A combined package for Dubai British School Emirates Hills and Dubai British School Jumeirah Park. Piers on the road, and the residential screens at Furjan South and Furjan West, for families in Al Furjan, JVT, and the communities around Arcadia and Arbor.",
+    message: "A combined package for Dubai British School Emirates Hills and Dubai British School Jumeirah Park. Lampposts on Piers, one circuit of 7 piers and 14 faces, and Furjan Pavilion Screens, for families in Al Furjan, JVT, and the communities around Arcadia and Arbor.",
     address: "Dubai Hills Estate, Park Heights Square 1, 6th floor, Dubai, UAE",
     poBox: "P.O. Box 213983",
     email: "contact@miramedia.ae",

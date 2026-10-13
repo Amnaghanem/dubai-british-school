@@ -1377,14 +1377,15 @@ body.pitch .story-slide {
   gap: 22px;
   text-align: left;
 }
-.furjan-grid > article { min-width: 0; }
+.furjan-grid > article,
+.furjan-grid > .furjan-photo { min-width: 0; }
 .furjan-photo {
-  margin: 0 0 10px;
+  margin: 0;
   border-radius: 18px;
   overflow: hidden;
   background: #111;
   box-shadow: 0 12px 32px rgba(35, 16, 31, 0.12);
-  height: min(22vh, 190px);
+  height: min(34vh, 300px);
 }
 .furjan-photo img {
   display: block;
