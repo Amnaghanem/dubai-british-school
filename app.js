@@ -139,18 +139,35 @@
         return `<article class="slide furjan-slide" data-slide="4">
           <p class="story-kicker">04 — Furjan Pavilion Screens</p>
           <h1 class="why-title">Screens where <span>they shop.</span></h1>
-          <p class="why-lead">The residential half of the same package. Furjan Pavilion Screens, for families in Al Furjan who already pass them.</p>
+          <p class="why-lead">The residential half of the same package. Furjan Pavilion Screens, for families in Al Furjan who already pass them. The numbers under each screen are the ones printed on the supplied sheets.</p>
           <div class="furjan-grid">
-            <figure class="furjan-photo">
-              <img src="assets/furjan-south-screen.png" alt="Furjan Pavilion screen" />
-            </figure>
-            <figure class="furjan-photo">
-              <img src="assets/furjan-west-screen.png" alt="Furjan Pavilion screen" />
-            </figure>
+            <article>
+              <figure class="furjan-photo">
+                <img src="assets/furjan-south-screen.png" alt="Furjan South screen" />
+              </figure>
+              <h2>Furjan South screen</h2>
+              <div class="furjan-stats">
+                <p><strong>2</strong><span>screens</span></p>
+                <p><strong>5,000</strong><span>daily footfall</span></p>
+              </div>
+              <p class="furjan-mix">Asian 2,400 (48%). Other Arab 1,000 (20%). Western 750 (15%). Emirati 500 (10%). Other 350 (7%).</p>
+            </article>
+            <article>
+              <figure class="furjan-photo">
+                <img src="assets/furjan-west-screen.png" alt="Furjan West screen" />
+              </figure>
+              <h2>Furjan West screen</h2>
+              <div class="furjan-stats">
+                <p><strong>2</strong><span>screens</span></p>
+                <p><strong>8,300</strong><span>daily footfall</span></p>
+              </div>
+              <p class="furjan-mix">Asian 4,000 (48%). Other Arab 1,667 (20%). Western 1,250 (15%). Emirati 833 (10%). Other 583 (7%).</p>
+            </article>
           </div>
           <p class="piers-notes">
-            <span>Furjan Pavilion Screens</span>
-            <span>In the same package as the Piers circuit</span>
+            <span>Supplied Pavilion sheets</span>
+            <span>A footfall is not a count of parents</span>
+            <span>A share is not a census</span>
           </p>
         </article>`;
 
@@ -164,7 +181,7 @@
               <thead>
                 <tr>
                   <th>Location</th>
-                  <th>Package</th>
+                  <th>Details</th>
                 </tr>
               </thead>
               <tbody>
@@ -174,23 +191,23 @@
                 </tr>
                 <tr>
                   <td>Furjan Pavilion Screens</td>
-                  <td>Included</td>
+                  <td>2 screens, 5,000 daily footfall. 2 screens, 8,300 daily footfall.</td>
                 </tr>
                 <tr>
                   <td>Package</td>
-                  <td>AED 130,000</td>
+                  <td class="schedule-amt">AED 130,000</td>
                 </tr>
                 <tr>
                   <td>VAT 5%</td>
-                  <td>AED 6,500</td>
+                  <td class="schedule-amt">AED 6,500</td>
                 </tr>
                 <tr>
                   <td>Uploading fee</td>
-                  <td>AED 4,000</td>
+                  <td class="schedule-amt">AED 4,000</td>
                 </tr>
                 <tr class="schedule-total">
                   <td>Total</td>
-                  <td>AED 140,500</td>
+                  <td class="schedule-amt">AED 140,500</td>
                 </tr>
               </tbody>
             </table>
