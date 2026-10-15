@@ -7,7 +7,9 @@
     { id: 'brand', title: 'Dubai British School' },
     { id: 'school', title: 'The school' },
     { id: 'piers', title: 'Piers' },
-    { id: 'furjan', title: 'Furjan Pavilion Screens' },
+    { id: 'backlit', title: 'Backlit faces' },
+    { id: 'mbz', title: 'Mohammed Bin Zayed Road' },
+    { id: 'map', title: 'The map' },
     { id: 'schedule', title: 'The schedule' },
     { id: 'close', title: 'Conclusion' },
   ];
@@ -58,11 +60,11 @@
                 </div>
                 <p class="pitch-kicker"><span class="pitch-kicker-line"></span> Secondary and Sixth Form</p>
                 <h1 class="pitch-title">A school<br><span>parents can find.</span></h1>
-                <p class="pitch-lead">A combined plan for Dubai British School Emirates Hills and Dubai British School Jumeirah Park. Families in Al Furjan, JVT, and the communities around Arcadia and Arbor. One package of AED 130,000, plus 5% VAT and the uploading fee.</p>
+                <p class="pitch-lead">A combined plan for Dubai British School Emirates Hills and Dubai British School Jumeirah Park. Families in Al Furjan, JVT, and the communities around Arcadia and Arbor. Piers and the digital screen are AED 130,000. The lampposts alone are AED 135,000. 5% VAT and the uploading fee are added.</p>
                 <div class="pitch-facts">
                   <div><small>The schools</small><strong>Emirates Hills and Jumeirah Park</strong></div>
                   <div><small>Admissions</small><strong>Secondary and Sixth Form</strong></div>
-                  <div><small>This plan</small><strong>7 piers and Furjan screens</strong></div>
+                  <div><small>This plan</small><strong>7 piers, 5 poles, one unipole</strong></div>
                 </div>
               </div>
               <div class="pitch-hero-frame">
@@ -76,7 +78,7 @@
         return `<article class="slide metro-slide school-slide" data-slide="2">
           <p class="story-kicker">02 — Dubai British School</p>
           <h1 class="why-title">Why families <span>choose it.</span></h1>
-          <p class="why-lead">Two schools, one package. Dubai British School Emirates Hills opened in 2005 and is rated Outstanding by KHDA. Jumeirah Park is the sister campus. Both follow the National Curriculum for England. This plan is for Secondary and Sixth Form admissions, for families in Al Furjan, JVT, and the communities around Arcadia and Arbor.</p>
+          <p class="why-lead">Two schools, two packages. Dubai British School Emirates Hills opened in 2005 and is rated Outstanding by KHDA. Jumeirah Park is the sister campus. Both follow the National Curriculum for England. This plan is for Secondary and Sixth Form admissions, for families in Al Furjan, JVT, and the communities around Arcadia and Arbor.</p>
           <div class="metro-sites">
             <article>
               <figure class="site-photo photo-music">
@@ -97,7 +99,7 @@
                 <img src="assets/dbs-art.jpg" alt="Dubai British School" />
               </figure>
               <p class="metro-name">The budget</p>
-              <p class="metro-meta">One package of AED 130,000 for all locations. 5% VAT and an uploading fee of AED 4,000 are added.</p>
+              <p class="metro-meta">Piers and the digital screen are AED 130,000. The lampposts alone are AED 135,000. 5% VAT and an uploading fee of AED 4,000 are added to the package chosen.</p>
             </article>
           </div>
         </article>`;
@@ -106,7 +108,7 @@
         return `<article class="slide piers-slide" data-slide="3">
           <p class="story-kicker">03 — Lampposts, Piers</p>
           <h1 class="why-title">Stretched to <span>the door.</span></h1>
-          <p class="why-lead">The roadside half of the combined package. One circuit of lampposts: 7 piers, 14 faces. They reach Al Furjan and the communities beside it: DIP, The Gardens and Discovery Gardens. That is the catchment around Arbor, and the drive toward JVT and Arcadia.</p>
+          <p class="why-lead">One circuit of lampposts: 7 piers, 14 faces. They reach Al Furjan and the communities beside it: DIP, The Gardens and Discovery Gardens. That is the catchment around Arbor, and the drive toward JVT and Arcadia.</p>
           <figure class="piers-photo">
             <img src="assets/piers-street.jpg" alt="Lamppost faces along the Piers circuit" />
           </figure>
@@ -135,63 +137,77 @@
           </p>
         </article>`;
 
-      case 'furjan':
-        return `<article class="slide furjan-slide" data-slide="4">
-          <p class="story-kicker">04 — Furjan Pavilion Screens</p>
-          <h1 class="why-title">Screens where <span>they shop.</span></h1>
-          <p class="why-lead">The residential half of the same package. Furjan Pavilion Screens, for families in Al Furjan who already pass them. The numbers under each screen are the ones printed on the supplied sheets.</p>
-          <div class="furjan-grid">
-            <article>
-              <figure class="furjan-photo">
-                <img src="assets/furjan-south-screen.png" alt="Furjan South screen" />
-              </figure>
-              <h2>Furjan South screen</h2>
-              <div class="furjan-stats">
-                <p><strong>2</strong><span>screens</span></p>
-                <p><strong>5,000</strong><span>daily footfall</span></p>
-              </div>
-              <p class="furjan-mix">Asian 2,400 (48%). Other Arab 1,000 (20%). Western 750 (15%). Emirati 500 (10%). Other 350 (7%).</p>
-            </article>
-            <article>
-              <figure class="furjan-photo">
-                <img src="assets/furjan-west-screen.png" alt="Furjan West screen" />
-              </figure>
-              <h2>Furjan West screen</h2>
-              <div class="furjan-stats">
-                <p><strong>2</strong><span>screens</span></p>
-                <p><strong>8,300</strong><span>daily footfall</span></p>
-              </div>
-              <p class="furjan-mix">Asian 4,000 (48%). Other Arab 1,667 (20%). Western 1,250 (15%). Emirati 833 (10%). Other 583 (7%).</p>
-            </article>
+      case 'backlit':
+        return `<article class="slide site-slide motors-slide split-slide" data-slide="4">
+          <div class="site-copy">
+            <p class="story-kicker">04 — Backlit faces</p>
+            <h1 class="why-title">Close enough <span>to read.</span></h1>
+            <p class="why-lead">Five poles, ten faces, in the middle of the traffic on the main streets. Each face is double-sided and backlit.</p>
+            <div class="motors-points">
+              <p><strong>5 poles, 10 faces</strong>A double-sided billboard. Each side is a backlit static face.</p>
+              <p><strong>In the traffic</strong>Set in the middle of traffic spots and on the main streets, not off to the side.</p>
+              <p><strong>Who sees it</strong>Pedestrians and people passing get an easy, clear, close look. Both directions of the road see a face.</p>
+              <p><strong>The road</strong>These faces sit on Mohammed Bin Zayed Road, in the flow of the school run toward Al Furjan, JVT, Arcadia and Arbor.</p>
+            </div>
           </div>
-          <p class="piers-notes">
-            <span>Supplied Pavilion sheets</span>
-            <span>A footfall is not a count of parents</span>
-            <span>A share is not a census</span>
-          </p>
+          <figure class="picture-slot backlit-photo">
+            <img src="assets/backlit-poles.jpg" alt="Double-sided backlit faces along Mohammed Bin Zayed Road" />
+          </figure>
+        </article>`;
+
+      case 'mbz':
+        return `<article class="slide site-slide motors-slide split-slide mbz-slide" data-slide="5">
+          <div class="site-copy">
+            <p class="story-kicker">05 — Mohammed Bin Zayed Road</p>
+            <h1 class="why-title">The gate they <span>already use.</span></h1>
+            <p class="why-lead">One pole at the Jumeirah Golf Estates entrance. Both directions of Sheikh Mohammed Bin Zayed Road see it.</p>
+            <div class="motors-points">
+              <p><strong>1 pole, 2 faces</strong>16 × 8 metres, at the Jumeirah Golf Estates entrance on Sheikh Mohammed Bin Zayed Road.</p>
+              <p><strong>Who uses it</strong>Residents turning into the estate, and the school run from Al Furjan, Jumeirah Village Triangle, Discovery Gardens and DIP.</p>
+              <p><strong>Arcadia and Arbor</strong>Arcadia British School is in JVT, about 3 kilometres from this gate. The Arbor School is in Al Furjan, the community directly north.</p>
+              <p><strong>Both DBS campuses</strong>Jumeirah Park is about 10 to 15 minutes up this road. Emirates Hills, in Springs, is the continuation of that drive.</p>
+            </div>
+          </div>
+          <figure class="picture-slot mbz-photo">
+            <img src="assets/mbz-jge-entrance.jpg" alt="Unipole at the Jumeirah Golf Estates entrance on Mohammed Bin Zayed Road" />
+          </figure>
+        </article>`;
+
+      case 'map':
+        return `<article class="slide site-slide motors-slide split-slide map-slide" data-slide="6">
+          <div class="site-copy">
+            <p class="story-kicker">06 — The map</p>
+            <h1 class="why-title">Where they <span>sit.</span></h1>
+            <p class="why-lead">The schools and the faces, on one map.</p>
+            <div class="motors-points">
+              <p><strong>Piers</strong>7 piers, 14 faces. One circuit of lampposts.</p>
+              <p><strong>Backlit faces</strong>5 poles, 10 faces. The five lamppost circuits. Double-sided, backlit static, in the traffic.</p>
+              <p><strong>Mohammed Bin Zayed Road</strong>1 pole, 2 faces, 16 × 8 m. The digital screen at the Jumeirah Golf Estates entrance.</p>
+              <p><strong>The schools</strong>Emirates Hills, Jumeirah Park, Arcadia British School, Arcadia Global School, and The Arbor School.</p>
+            </div>
+          </div>
+          <figure class="map-card">
+            <iframe title="Dubai British School locations" src="https://www.google.com/maps/d/embed?mid=1S9SmoEfpqmiHKqAsIQZeUpjLXbYnevc&ehbc=2E312F" loading="eager" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
         </article>`;
 
       case 'schedule':
-        return `<article class="slide schedule-slide" data-slide="5">
-          <p class="story-kicker">05 — The schedule</p>
-          <h1 class="why-title">One package <span>for all.</span></h1>
-          <p class="why-lead">Lampposts on Piers and Furjan Pavilion Screens are one package of AED 130,000. 5% VAT and the uploading fee are added.</p>
+        return `<article class="slide schedule-slide" data-slide="7">
+          <p class="story-kicker">07 — The schedule</p>
+          <h1 class="why-title">Two <span>packages.</span></h1>
+          <p class="why-lead">Piers and the digital screen are AED 130,000. The lampposts alone are AED 135,000. 5% VAT and the uploading fee are added to the package chosen.</p>
           <div class="schedule-wrap">
             <table>
               <thead>
                 <tr>
-                  <th>Location</th>
+                  <th>Package</th>
                   <th>Details</th>
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td>Lampposts (Piers)</td>
-                  <td>One circuit, 7 piers, 14 faces</td>
-                </tr>
-                <tr>
-                  <td>Furjan Pavilion Screens</td>
-                  <td>2 screens, 5,000 daily footfall. 2 screens, 8,300 daily footfall.</td>
+                <tr class="schedule-pack">
+                  <td>Piers and the digital screen</td>
+                  <td>7 piers, 14 faces, and 1 pole, 2 faces, 16×8 m.</td>
                 </tr>
                 <tr>
                   <td>Package</td>
@@ -209,13 +225,33 @@
                   <td>Total</td>
                   <td class="schedule-amt">AED 140,500</td>
                 </tr>
+                <tr class="schedule-pack">
+                  <td>Lampposts alone</td>
+                  <td>5 poles, 10 faces. Double-sided, backlit static.</td>
+                </tr>
+                <tr>
+                  <td>Package</td>
+                  <td class="schedule-amt">AED 135,000</td>
+                </tr>
+                <tr>
+                  <td>VAT 5%</td>
+                  <td class="schedule-amt">AED 6,750</td>
+                </tr>
+                <tr>
+                  <td>Uploading fee</td>
+                  <td class="schedule-amt">AED 4,000</td>
+                </tr>
+                <tr class="schedule-total">
+                  <td>Total</td>
+                  <td class="schedule-amt">AED 145,750</td>
+                </tr>
               </tbody>
             </table>
           </div>
           <div class="schedule-terms">
             <h2>Terms and conditions</h2>
             <ul>
-              <li>5% VAT is applied to the package of AED 130,000.</li>
+              <li>5% VAT is applied to the package chosen.</li>
               <li>Uploading fee: AED 4,000.</li>
               <li>Artwork fee: AED 520 per artwork, for Dubai Municipality approval.</li>
               <li>Artwork is 50% Arabic and 50% English. Arabic is set one size larger than English.</li>
@@ -233,8 +269,8 @@
               </div>
               <p class="pitch-kicker"><span class="pitch-kicker-line"></span> Mira Media · Dubai British School</p>
               <h1 class="pitch-title">${esc(c.contact.line1)}<br><span>${esc(c.contact.line2)}</span></h1>
-              <p class="pitch-lead">${esc(c.contact.message)}</p>
-              <p class="pitch-lead">One package for both schools. Lampposts on Piers are one circuit of 7 piers and 14 faces. Furjan Pavilion Screens are the screens families already pass.</p>
+              <p class="pitch-cta">Book your campaign now.</p>
+              <p class="pitch-lead">Piers and the digital screen, AED 130,000. Lampposts alone, AED 135,000.</p>
               <div class="pitch-facts">
                 <div><small>Email</small><strong><a href="mailto:${esc(c.contact.email)}">${esc(c.contact.email)}</a></strong></div>
                 <div><small>Phone</small><strong><a href="tel:+97144368624">${esc(c.contact.phones[0])}</a></strong></div>
